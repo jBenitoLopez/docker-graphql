@@ -30,6 +30,14 @@ CMD [ "node","dist/main.js"]
 
 
 
+# > docker build -t cursoblv/docker-graphql:0.0.1 .
+#   el punto al final es el path del docker-file
+# > docker push cursoblv/docker-graphql:0.0.1
+# #
+# > docker container run -p 3000:3000 cursoblv/docker-graphql:0.0.1
+#   verificar que funcione: http://localhost:3000/graphql
+
+
 
 
 
